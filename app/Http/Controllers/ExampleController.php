@@ -17,7 +17,7 @@ class ExampleController extends Controller
     public function index() {
         $data = [
             'key' => 'ini data',
-            'rahmat' => 'mendapatkan rejeki'
+            'dilan' => 'membuat rezeki'
         ];
 
         return response()->json($data, 200);
